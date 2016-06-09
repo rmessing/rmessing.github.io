@@ -1,0 +1,128 @@
+
+body {
+	margin: 0px; padding: 0px;
+	background-image: url("../img/body2.jpg");
+}
+
+h1 {
+	text-align: center;
+}
+#name {
+	font-family: cinzel;
+	margin-left: 615px;
+	margin-top: 140px;
+}
+#first {
+	width: 80%;
+	height: 480px;
+	z-index: 1;
+}
+#curly {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 40px;
+
+}
+#nycda  {
+	width: 44%;
+	height: 250px;
+	margin-top: 180px;
+	margin-bottom: 100px;
+}
+#p2  {
+	float: left;
+	width: 28%;
+	height: 530px;
+}
+#rick {
+	width: 28%;
+	height: 530px;
+	float: right;
+	
+}
+
+p {
+	
+	font-size: 20px;
+	font-family: cinzel;
+	width: 55%;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	/*font-style: italic;*/
+	text-align: center;
+}
+header {
+	position: absolute;
+	/*z-index: 10;*/
+	top: 170px;
+	left: 0;
+	right: 0;
+	font-family: cinzel;
+	text-align: center;
+	line-height: 100%;
+	font-size: 1.5em;
+	height: 300px;
+
+}
+#head1 {
+	font-size: 2em
+	padding-top: 450px;
+	z-index: 2;
+}
+#head3 {
+	color: white;
+	margin-top: -50px;
+}
+#pwd {
+	font-family: cinzel;
+	color: black;
+	top: 20px;
+	text-align: center;
+	line-height: 100%;
+}
+li {
+	display: inline;
+}
+.navdiv {
+	text-align: center;
+	z-index: 0;
+}
+nav {
+	text-align: center;
+	background-color: black;
+	padding: 2px 0px 2px 0px;
+	position: relative;
+	top: -30px;
+
+}
+
+nav ul {
+	padding-left: 0px;
+}
+
+nav a {
+	color: white;
+	font-size: 25px;
+}
+
+.project {
+	height: auto;
+	width: 10%;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.project1 {
+	height: auto;
+	width: 10%;
+	float: left;
+	margin-top: -20px;
+	margin-bottom: 0px;
+}
+#project#s {
+	margin-top: 0px
+	margin-bottom: 0px;
+}
