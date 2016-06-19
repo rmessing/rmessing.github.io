@@ -86,6 +86,10 @@ header {
 li {
 	display: inline;
 }
+
+li a {
+	text-decoration:none;
+}
 .navdiv {
 	text-align: center;
 	z-index: 0;
