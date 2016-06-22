@@ -9,33 +9,34 @@ h1 {
 }
 #name {
 	font-family: cinzel;
-	margin-left: 615px;
-	margin-top: 140px;
+	/*margin-left: 615px;
+	margin-top: 140px;*/
+	text-align: center;
 }
 #first {
-	width: 80%;
+	width: 100%;
 	height: 480px;
 	z-index: 1;
 }
-#curly {
+/*#curly {
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 40px;
 
-}
+}*/
 #nycda  {
-	width: 44%;
+	width: 36%;
 	height: 250px;
 	margin-top: 180px;
 	margin-bottom: 100px;
 }
 #p2  {
 	float: left;
-	width: 28%;
+	width: 32%;
 	height: 530px;
 }
 #rick {
-	width: 28%;
+	width: 32%;
 	height: 530px;
 	float: right;
 	
@@ -68,13 +69,14 @@ header {
 
 }
 #head1 {
-	font-size: 2em
-	padding-top: 450px;
+	font-size: 4em
+	padding-top: 250px;
+	margin-top: -100px;
 	z-index: 2;
 }
 #head3 {
 	color: white;
-	margin-top: -50px;
+	margin-top: -100px;
 }
 #pwd {
 	font-family: cinzel;
