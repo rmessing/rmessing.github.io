@@ -1,62 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans|Cinzel:400,700,900' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="css/portfolio.css">
-	<title>Portfolio</title>
-</head>
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans|Cinzel:400,700,900' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+		<!-- <link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16"> -->
+		<title>Portfolio</title>
+	</head>
 <body>
-
-
-<div>
-	<img style="width: 100%; height:480px"; src="img/kotel.jpg">
-	<header id="head3">
-		<h1 style="font-size: 75px">Web Development</h1>
-		<h2 style="font-size: 100px">Projects</h2>
+	<img id="apps" src="img/kotel.jpg">
+	<header>
+		<h1 id="name3">Projects</h1>
 	</header>
-	<div class="navdiv">
 	<nav>
 		<ul>
 			<li>
 				<a href="index.html">Home</a>
 			</li>
 			 <li>
-				<a style="margin:10px" href="index2.html">About</a>
+				<a href="index3.html">Projects</a>
 			</li>
 			 <li>
-				<a href="index3.html">Portfolio</a>
+			 	<a href="index2.html">About</a>
 			</li>
 		</ul>
 	</nav>
+
+	<div id="div_left">
+		<a href="http://daycareops.herokuapp.com" target="_blank"><img id="project1" src="img/dc_ops.png"></a>
 	</div>
-</div>
-
-	<div id="project#s">
-		<h1 class="project1">I</h1>
-		<h1 class="project1">II</h1>
-		<h1 class="project1">III</h1>
-		<h1 class="project1">IV</h1>
-		<h1 class="project1">V</h1>
-		<h1 class="project1">VI</h1>
-		<h1 class="project1">VII</h1>
-		<h1 class="project1">VIII</h1>
-		<h1 class="project1">IX</h1>
-		<h1 class="project1">X</h1>
+	<div id="vertical_bar"></div>
+	<div id="div_right">
+		<a href="http://myjukebox.herokuapp.com/juke.html" target="_blank"><img id="project2" src="img/my_jb.png"></a>
 	</div>
-
-	<div id="projects">
-	<img class="project" src="img/greektemple.jpg">
-	<img class="project" src="img/greektemple.jpg">
-	<img class="project" src="img/greektemple.jpg">
-	<img class="project" src="img/greektemple.jpg">
-	<img class="project" src="img/greektemple.jpg">
-	<img class="project" src="img/greektemple.jpg">
-	<img class="project" src="img/greektemple.jpg">
-	<img class="project" src="img/greektemple.jpg">
-	<img class="project" src="img/greektemple.jpg">
-	<img class="project" src="img/greektemple.jpg">
-	</div>
-
-
+	<div id="p_left">
+			<b>Day Care Ops</b> | daycareops.herokuapp.com 
+| This business application provides smaller child care businesses the ability to accurately track child attendance, meal participation and the administration of families, teachers and classes.
+<ul><li class="p">Built with <strong>Ruby on Rails</strong></li>
+<li class="p">Used <strong>ActiveRecord</strong> with <strong>PostgreSQL</strong> for development and production</li></ul>
+		</div>
+		<div id="p_right">
+			<strong>My Jukebox</strong> | myjukebox.herokuapp.com/juke.html |
+Creating the functional equivalent of a jukebox including a dynamic playlist and full audio controls, demonstrates the power of object oriented programming.
+<ul><li class="p">Built using <strong>Javascript</strong> and <strong>jQuery</strong></li> 
+		</div>
 </body>
 </html>
