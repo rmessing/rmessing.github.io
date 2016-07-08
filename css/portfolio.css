@@ -3,18 +3,20 @@ body {
 	margin: 0px; padding: 0px;
 	background-image: url("../img/pyramid.png");
 	height: 100vh;
+	overflow-y: hidden;
+	overflow-x: hidden;
 }
 * {
 	font-family: cinzel;
 }
 .name {
 	text-align: center;
-	font-size: 50px;
+	font-size: 4.5vw;
 	color: white;
-	margin: 20px 0 0 0;
+	margin: 7vh 0 -7vh 0;
 }
 #name3 {
-	font-size: 3em;
+	font-size: 8vw;
 	margin-top: -43px;
 	/*color: rgba(7,74,30,1);*/
 	color: rgba(204,0,0,1);
@@ -65,7 +67,7 @@ header {
 header h1 {
 	/*color: rgba(7,74,30,1);*/
 	color: rgba(204,0,0,1);
-	font-size: 2.5em;
+	font-size: 8vw;
 	margin: 0;
 }
 header h4 {
@@ -84,29 +86,13 @@ nav li a {
 nav {
 	width: 100%;
 	background-color: black;
-	padding: 2px 0px 2px 0px;
+	padding: .75vh 0px .75vh 0px;
 	position: relative;
 	top: -35px;
 }
 nav ul {
 	text-align: center;
 	padding-left: 0;
-}
-#nycda  {
-	width: 40%;
-	height: 250px;
-	margin-top: 190px;
-	margin-bottom: 90px;
-}
-#p2  {
-	float: left;
-	width: 30%;
-	height: 530px;
-}
-#rick {
-	width: 30%;
-	height: 530px;
-	float: right;
 }
 #contact {
 	text-align: center;
@@ -184,15 +170,17 @@ nav ul {
 }
 .navdiv2 {
 	margin-top: -20px;
+	height: 5vh;
 }
 #quote {
-	top: 74%;
+	top: 74vh;
 	text-align: center;
 	position: absolute;
 	width: 60%;
-	height: 20vh;
-	margin: 19px 0 0 21%;
+	height: 16vh;
+	margin: 5vh 19vw 0vh 21vw;
 	border: 1px;
+	font-size: 1.2vw;
 }
 p {
 	font-family: open sans;
@@ -207,8 +195,11 @@ p {
 	width: 75%;
 }
 #master {
-	width: 100%;
+	height: 75vh;
+	width: 100vw;
 	position: absolute;
+	margin-top: 1.8vh;
+	margin-bottom: -1.8vh;
 
 }
 .border_bottom {
@@ -217,6 +208,7 @@ p {
 	border-bottom-color: black;
 	width: 74%;
 	margin-left: 13%;
+	text-decoration: bold;
 }
 #work {
 	width: 24vw;
@@ -249,11 +241,22 @@ p {
 	border-radius: 25px;
 	color: rgba(7,74,30,1);
 	text-decoration-style: bold;
+	height: 57vh;
 }
 .about h3 {
-	font-size: 20px;
+	font-size: 1.7vw;
+	margin-top: -1.5%;
+	position: relative;
 }
 .about h1 {
 	color: red;
+	font-size: 2.5vw;
+	margin-bottom: 3.5vh;
+
+}
+.about_text {
+	margin: 4vh 0 4vh 0;
+	height: 92%;
+	position: relative;
 }
 
