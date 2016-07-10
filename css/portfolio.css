@@ -11,7 +11,7 @@ body {
 }
 .name {
 	text-align: center;
-	font-size: 4.5vw;
+	font-size: 4vw;
 	color: white;
 	margin: 7vh 0 -7vh 0;
 }
@@ -35,7 +35,7 @@ body {
 	float: left;
 	font-family: open sans;
 	font-size: 13px;
-	text-decoration: bold;
+	/*text-decoration: bold;*/
 }
 #p_right {
 	font-size: 12px;
@@ -46,11 +46,7 @@ body {
 	float: right;
 	font-family: open sans;
 	font-size: 13px;
-	text-decoration: bold;
-}
-.p {
-	font-family: open sans;
-	font-size: 13px;
+	/*text-decoration: bold;*/
 }
 li strong {
 	font-family: open sans;
@@ -68,8 +64,9 @@ header {
 }
 header h1 {
 	color: rgba(204,0,0,1);
-	font-size: 8vw;
+	font-size: 7vw;
 	margin: 0;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 header h4 {
 	margin-left: 0px; padding-left: 0px;
@@ -192,6 +189,8 @@ nav ul {
 	text-align: left;
 	text-decoration-style: bold;
 	color: black;
+	font-size: 13px;
+	text-decoration: none;
 }
 #ref {
 	border-top-width: 1px;
@@ -214,6 +213,7 @@ nav ul {
 	width: 74%;
 	margin-left: 13%;
 	text-decoration: bold;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 #work {
 	width: 24vw;
@@ -257,11 +257,14 @@ nav ul {
 	color: red;
 	font-size: 2.5vw;
 	margin-bottom: 3.5vh;
-
 }
 .about_text {
 	margin: 4vh 0 4vh 0;
 	height: 92%;
 	position: relative;
+}
+.links {
+	text-decoration: none;
+	font-family: open sans;
 }
 
