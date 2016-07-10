@@ -35,6 +35,7 @@ body {
 	float: left;
 	font-family: open sans;
 	font-size: 13px;
+	text-decoration: bold;
 }
 #p_right {
 	font-size: 12px;
@@ -45,6 +46,7 @@ body {
 	float: right;
 	font-family: open sans;
 	font-size: 13px;
+	text-decoration: bold;
 }
 .p {
 	font-family: open sans;
@@ -65,7 +67,6 @@ header {
 	padding: 0px;
 }
 header h1 {
-	/*color: rgba(7,74,30,1);*/
 	color: rgba(204,0,0,1);
 	font-size: 8vw;
 	margin: 0;
@@ -88,7 +89,7 @@ nav {
 	background-color: black;
 	padding: .75vh 0px .75vh 0px;
 	position: relative;
-	top: -35px;
+	top: -4vh;
 }
 nav ul {
 	text-align: center;
@@ -174,15 +175,19 @@ nav ul {
 }
 #quote {
 	top: 74vh;
-	text-align: center;
+	text-align: left;
 	position: absolute;
 	width: 60%;
 	height: 16vh;
 	margin: 5vh 19vw 0vh 21vw;
 	border: 1px;
 	font-size: 1.2vw;
+	
 }
-p {
+#quote p {
+	font-family: open sans;
+}
+.p {
 	font-family: open sans;
 	text-align: left;
 	text-decoration-style: bold;
