@@ -196,6 +196,8 @@ nav ul {
 	border-top-width: 1px;
 	border-top-style: solid; 
 	border-top-color: black;
+	border-width: 75%;
+	font-size: .9em;
 	width: 75%;
 }
 #master {
@@ -266,5 +268,16 @@ nav ul {
 .links {
 	text-decoration: none;
 	font-family: open sans;
+	margin: 0;
 }
+/*.resume_img {
+	display: block;
+	width: 100%;
+    background-size: 100% 100%;
+}
+#resume {
+  background: url('img/resume_p2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover
+}*/
 
