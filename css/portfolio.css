@@ -88,6 +88,7 @@ nav {
 	padding: .4vh 0px .4vh 0px;
 	position: relative;
 	top: -4vh;
+	z-index: 3;
 }
 nav ul {
 	text-align: center;
