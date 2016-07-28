@@ -1,4 +1,6 @@
 
+
+
 body {
 	margin: 0px; padding: 0px;
 	background-image: url("../img/pyramid.png");
@@ -285,4 +287,11 @@ nav ul {
   background-repeat: no-repeat;
   background-size: cover
 }*/
+@media all and (max-width: 400px) {
+.first {
+	width: 100vw;
+	height: 70vh;
+	z-index: 1;
+}
+}
 
