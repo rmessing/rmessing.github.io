@@ -389,7 +389,7 @@ nav ul {
 		display: none;
 	}
 	#about_title {
-		margin-top: -2vh;
+		margin-top: -3vh;
 	}
 	.navdiv2 {
 		margin: 0;
@@ -400,6 +400,11 @@ nav ul {
 	.about {
 		height: 50vh;
 	}
+	.about h3 {
+		font-size: 1.7vw;
+		margin-top: -2%;
+		position: relative;
+}
 
 
 }
