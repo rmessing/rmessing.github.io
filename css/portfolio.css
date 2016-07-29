@@ -351,9 +351,9 @@ nav ul {
 		margin-left: -5.5vw;
 	}
 	#p_left {
-	width: 35%;
-	margin-top: 14%;
-	margin-left: 8%;
+		width: 35%;
+		margin-top: 14%;
+		margin-left: 8%;
 	}
 	#p_right {
 		width: 35%;
@@ -375,10 +375,21 @@ nav ul {
 		width: 100vw;
 		display: block;
 	}
+	#nav_projects {
+		margin-top: 4vh;
+	}
 	body {
 		margin: 0px; padding: 0px;
 		background-image: url("../img/pyramid.png");
 		height: 100vh;
 	}
+}
+@media (min-width: 401px) and (max-width: 667px){
+	#quote {
+		display: none;
+	}
+
+
+
 }
 
