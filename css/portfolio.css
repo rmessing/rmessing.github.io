@@ -389,10 +389,10 @@ nav ul {
 		display: none;
 	}
 	#about_title {
-		margin-top: -3vh;
+		margin-top: -3.5vh;
 	}
 	.navdiv2 {
-		margin: 0;
+		margin-top: 0;
 	}
 	#first_mobile {
 		height: 93vh;
@@ -404,7 +404,10 @@ nav ul {
 		font-size: 1.7vw;
 		margin-top: -2%;
 		position: relative;
-}
+	}
+	#master {
+		margin-bottom: -10vh;
+	}
 
 
 }
