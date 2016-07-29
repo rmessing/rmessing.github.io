@@ -247,6 +247,7 @@ nav ul {
 	margin-left: 69vw;
 	margin-top: 2.5%;
 	margin-bottom: -2.5%;
+	text-align: center;
 }
 .about {
 	text-align: center;
@@ -255,7 +256,6 @@ nav ul {
 	border-radius: 25px;
 	color: rgba(7,74,30,1);
 	text-decoration-style: bold;
-	height: 57vh;
 }
 .about h3 {
 	font-size: 1.7vw;
@@ -277,21 +277,89 @@ nav ul {
 	font-family: open sans;
 	margin: 0;
 }
-/*.resume_img {
-	display: block;
-	width: 100%;
-    background-size: 100% 100%;
+.descr {
+	text-decoration: none;
+	font-family: open sans;
+	margin: 0;
 }
-#resume {
-  background: url('img/resume_p2.jpg');
-  background-repeat: no-repeat;
-  background-size: cover
-}*/
+
 @media all and (max-width: 400px) {
-.first {
-	width: 100vw;
-	height: 70vh;
-	z-index: 1;
+	.first {
+		height: 70vh;
+	}
+	#quote {
+		width: 90%;
+		margin: 5vh 5vw 0vh 5vw;
+		font-size: 2.5vw;
+	}
+	#ref {
+		font-size: .8em;
+		width: 90%;
+	}
+	#master {
+		margin-top: 10vh;
+		margin-bottom: -10vh;
+		margin-left: -1vw;
+		margin-right: 1vw;
+	}
+	#work {
+		width: 27vw;
+	}
+	#skill {
+		width: 27vw;
+	}
+	#play {
+		width: 27vw;
+	}
+	.about h3 {
+		font-size: 2.4vw;
+	}
+	.about h1 {
+		font-size: 3vw;
+	}
+	.about {
+		height: 35vh;
+	}
+	header h1 {
+		font-size: 50px;
+	}
+	.name {
+		font-size: 5vw;
+		color: white;
+		margin: 3vh 0 -7vh 0;
+	}
+	#apps {
+		height: 20vh;
+		z-index: 1;
+	}
+	#name3 {
+		font-size: 10vw;
+		margin-top: -60px;
+	}
+	.links {
+		display: none;
+	}
+	.p li {
+		margin-left: -5vw;
+	}
+	#p_left {
+	width: 35%;
+	margin-top: 14%;
+	margin-left: 8%;
 }
+	#p_right {
+		width: 35%;
+		margin-top: 14%;
+		margin-left: 61%;
+	}
+	#p_right b {
+		font-size: 15px;
+	}
+	#p_left b {
+		font-size: 15px;
+	}
+	.not_mobile {
+		display: none;
+	}
 }
 
