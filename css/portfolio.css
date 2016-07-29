@@ -395,10 +395,10 @@ nav ul {
 		margin-top: 0;
 	}
 	#first_mobile {
-		height: 93vh;
+		height: 83vh;
 	}
 	.about {
-		height: 50vh;
+		height: 60vh;
 	}
 	.about h3 {
 		font-size: 1.7vw;
@@ -408,7 +408,5 @@ nav ul {
 	#master {
 		margin-bottom: -10vh;
 	}
-
-
 }
 
