@@ -108,7 +108,7 @@ nav ul {
     filter: alpha(opacity=50)
 }
 #project3 {
-	margin-top: 60vh;
+	margin-top: 50vh;
 }
 .project_left {
 	margin-left: 5vw;
@@ -285,11 +285,11 @@ nav ul {
 }
 .links {
 	text-decoration: none;
-	font-family: open sans;
+	font-family: cinzel;
 	margin: 0;
 }
 .descr {
-	text-decoration: none;
+	/*text-decoration: none;*/
 	font-family: open sans;
 	margin: 0;
 }
@@ -302,7 +302,8 @@ nav ul {
 
 @media all and (max-width: 700px) {
 	#project3 {
-		margin-top: 75vh;
+		margin-top: 60vh;
+		padding-top: 65px;
 	}
 	.first {
 		height: 70vh;
@@ -360,9 +361,9 @@ nav ul {
 	#name3 {
 		display: none;
 	}
-	.links {
+/*	.links {
 		display: none;
-	}
+	}*/
 	.p li {
 		margin-left: -5.5vw;
 	}
