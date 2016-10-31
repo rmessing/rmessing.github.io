@@ -124,22 +124,6 @@ nav ul {
 	min-width: 40vw;
 	display: block;
 }
-
-.div_left: {
-	left: 0;
-	margin-left: 0;
-	padding: 0;
-	width: 48%;
-	height: 100%;
-}
-
-.div_right: {
-	right: 0;
-	margin: 0;
-	padding: 0;
-	width: 48%;
-	height: 100%;
-}
 .p_left {
 	font-size: 12px;
 	width: 30%;
@@ -149,7 +133,6 @@ nav ul {
 	float: left;
 	font-family: open sans;
 	font-size: 13px;
-	/*text-decoration: bold;*/
 }
 .p_right {
 	font-size: 12px;
@@ -160,11 +143,7 @@ nav ul {
 	float: left;
 	font-family: open sans;
 	font-size: 13px;
-	/*text-decoration: bold;*/
 }
-/*.spacer {
-	height: 30px;
-}*/
 .align {
 	text-align: center;
 }
@@ -193,11 +172,12 @@ nav ul {
 	height: 16vh;
 	margin: 5vh 19vw 0vh 21vw;
 	border: 1px;
-	font-size: 1.2vw;
+	font-size: 1.4vw;
 	
 }
 #quote p {
 	font-family: open sans;
+	text-decoration: bold;
 }
 #quote i {
 	font-family: open sans;
@@ -214,9 +194,9 @@ nav ul {
 	border-top-width: 1px;
 	border-top-style: solid; 
 	border-top-color: black;
-	border-width: 75%;
+	border-width: 80%;
 	font-size: .9em;
-	width: 75%;
+	width: 80%;
 }
 #master {
 	height: 75vh;
@@ -289,7 +269,6 @@ nav ul {
 	margin: 0;
 }
 .descr {
-	/*text-decoration: none;*/
 	font-family: open sans;
 	margin: 0;
 }
@@ -300,19 +279,18 @@ nav ul {
 	display: none;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 612px) {
 	#project3 {
-		margin-top: 60vh;
-		padding-top: 65px;
+		display: none;
 	}
-	.first {
+/*	.first {
 		height: 70vh;
 	}
 	#quote {
 		width: 90%;
 		margin: 3vh 5vw 0vh 5vw;
-		font-size: 2.7vw;
-		text-decoration: bold;
+		font-size: 2vw;
+		text-decoration: none;
 	}
 	#ref {
 		font-size: .8em;
@@ -340,7 +318,7 @@ nav ul {
 		font-size: 3vw;
 	}
 	.about {
-		height: 35vh;
+		height: 43vh;
 	}
 	.about_text {
 		text-decoration: bold;
@@ -364,7 +342,7 @@ nav ul {
 /*	.links {
 		display: none;
 	}*/
-	.p li {
+/*	.p li {
 		margin-left: -5.5vw;
 	}
 	#p_left {
@@ -403,7 +381,7 @@ nav ul {
 	.drop {
 		display :none;
 	}
-}
+}*/
 /*@media (min-width: 401px) and (max-width: 700px){
 	#quote {
 		display: none;
@@ -428,6 +406,5 @@ nav ul {
 	#master {
 		margin-bottom: -10vh;
 	}
-}
-
 */
+}
