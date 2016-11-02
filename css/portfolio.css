@@ -55,12 +55,12 @@ nav li {
 }
 nav li a {
  	padding: 0 5px 0 5px;
- 	color: white;
+ 	color: grey;
 	font-size: 17px;
 	text-decoration: none;
 }
 nav li a:hover {
-	text-decoration: underline;
+	font-style: italic;
 }
 nav {
 	width: 100%;
@@ -75,7 +75,7 @@ nav ul {
 	padding-left: 0;
 }
 .current {
-	color: grey;
+	color: white;
 }
 #contact {
 	text-align: center;
