@@ -56,8 +56,11 @@ nav li {
 nav li a {
  	padding: 0 5px 0 5px;
  	color: white;
-	font-size: 20px;
+	font-size: 17px;
 	text-decoration: none;
+}
+nav li a:hover {
+	text-decoration: underline;
 }
 nav {
 	width: 100%;
@@ -70,6 +73,9 @@ nav {
 nav ul {
 	text-align: center;
 	padding-left: 0;
+}
+.current {
+	color: grey;
 }
 #contact {
 	text-align: center;
