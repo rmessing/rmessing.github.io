@@ -122,6 +122,7 @@ nav ul {
 	position: relative;
 	min-width: 40vw;
 	display: block;
+	/*overflow-y: scroll;*/
 }
 .project_right {
 	margin-left: -5vw;
@@ -285,10 +286,14 @@ nav ul {
 	display: none;
 }
 
-@media all and (max-width: 612px) {
+@media all and (max-width: 655px) {
 	#project3 {
 		display: none;
 	}
+
+/*	#project3 {
+		display: none;
+	}*/
 /*	.first {
 		height: 70vh;
 	}
