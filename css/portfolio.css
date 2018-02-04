@@ -31,7 +31,6 @@ body {
 	width: 100vw;
 	height: 75vh;
 	z-index: 1;
-	opacity: 0.95;
 }
 li strong {
 	font-family: open sans;
